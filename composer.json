@@ -2,7 +2,7 @@
     "name": "swag/scheduled-task-plugin",
     "description": "Plugin with scheduled tasks",
     "version": "v1.0.0",
-    "type": "shopware-plugin",
+    "type": "shopware-platform-plugin",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,7 @@
         "shopware/platform": "dev-master"
     },
     "extra": {
-        "installer-name": "ScheduledTaskPlugin",
+        "shopware-plugin-class": "Swag\\ScheduledTaskPlugin\\ScheduledTaskPlugin",
         "label": {
             "de_DE": "Plugin mit einer individuellen Entität",
             "en_GB": "Plugin with scheduled tasks"
@@ -21,6 +21,11 @@
         "description": {
             "de_DE": "Plugin mit einer individuellen Entität",
             "en_GB": "Plugin with scheduled tasks"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Swag\\ScheduledTaskPlugin\\": "src/"
         }
     }
 }

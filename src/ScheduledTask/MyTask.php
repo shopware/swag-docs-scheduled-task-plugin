@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace ScheduledTaskPlugin\ScheduledTask;
+namespace Swag\ScheduledTaskPlugin\ScheduledTask;
 
 use Shopware\Core\Framework\ScheduledTask\ScheduledTask;
 

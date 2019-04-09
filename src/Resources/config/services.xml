@@ -5,11 +5,11 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="ScheduledTaskPlugin\ScheduledTask\MyTask">
+        <service id="Swag\ScheduledTaskPlugin\ScheduledTask\MyTask">
             <tag name="shopware.scheduled.task" />
         </service>
 
-        <service id="ScheduledTaskPlugin\ScheduledTask\MyTaskHandler">
+        <service id="Swag\ScheduledTaskPlugin\ScheduledTask\MyTaskHandler">
             <argument type="service" id="scheduled_task.repository" />
             <tag name="messenger.message_handler" />
         </service>
