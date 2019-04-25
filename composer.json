@@ -15,12 +15,12 @@
     "extra": {
         "shopware-plugin-class": "Swag\\ScheduledTaskPlugin\\ScheduledTaskPlugin",
         "label": {
-            "de_DE": "Plugin mit einer individuellen Entität",
-            "en_GB": "Plugin with scheduled tasks"
+            "de-DE": "Plugin mit einer individuellen Entität",
+            "en-GB": "Plugin with scheduled tasks"
         },
         "description": {
-            "de_DE": "Plugin mit einer individuellen Entität",
-            "en_GB": "Plugin with scheduled tasks"
+            "de-DE": "Plugin mit einer individuellen Entität",
+            "en-GB": "Plugin with scheduled tasks"
         }
     },
     "autoload": {
