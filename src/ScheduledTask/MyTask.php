@@ -2,7 +2,7 @@
 
 namespace Swag\ScheduledTaskPlugin\ScheduledTask;
 
-use Shopware\Core\Framework\ScheduledTask\ScheduledTask;
+use Shopware\Core\Framework\MessageQueue\ScheduledTask\ScheduledTask;
 
 class MyTask extends ScheduledTask
 {
